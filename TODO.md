@@ -1,0 +1,5 @@
+- [x] Update about.html: Add proper head section with meta tags, title "About - Muel & Nuel Schools", correct CSS link to "css/styles.css", add header, footer, and scripts.
+- [x] Update admission.html: Add proper head section with meta tags, title "Admissions - Muel & Nuel Schools", correct CSS link to "css/styles.css", add header, footer, and scripts.
+- [x] Update admin.html: Add proper head section with meta tags, title "Admin - Muel & Nuel Schools", correct CSS link to "css/styles.css", add header, footer, and scripts.
+- [x] Update register.html: Add proper head section with meta tags, title "Register - Muel & Nuel Schools", correct CSS link to "css/styles.css", add header, footer, and scripts.
+- [x] Update login.html: Add proper head section with meta tags, title "Login - Muel & Nuel Schools", add CSS link "css/styles.css", add header, footer, and scripts.
