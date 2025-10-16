@@ -7,6 +7,7 @@
     <meta name="keywords" content="school, education, Muel Nuel, register, admission">
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/register.css">
     <title>Register - Muel & Nuel Schools</title>
 </head>
 <body>
@@ -32,7 +33,164 @@
     </header>
 
     <div class="container">
-        <!-- Register content goes here -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Register for Admission</h1>
+                    <p class="hero-subtitle">Join the Muel & Nuel Schools Community</p>
+                    <p>Take the first step towards providing your child with quality education. Our admission process is designed to be simple and supportive. Fill out the form below to begin your journey with us.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Students learning">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h3>Admission Application Form</h3>
+            <p>Please fill out all required fields accurately. Our admissions team will review your application and contact you within 3-5 business days.</p>
+
+            <form action="#" method="post" class="registration-form">
+                <div class="form-section">
+                    <h4>Student Information</h4>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="student-name">Full Name *</label>
+                            <input type="text" id="student-name" name="student_name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Date of Birth *</label>
+                            <input type="date" id="dob" name="date_of_birth" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="gender">Gender *</label>
+                            <select id="gender" name="gender" required>
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="grade">Grade Applying For *</label>
+                            <select id="grade" name="grade" required>
+                                <option value="">Select Grade</option>
+                                <option value="6">Class 6</option>
+                                <option value="7">Class 7</option>
+                                <option value="8">Class 8</option>
+                                <option value="9">Class 9</option>
+                                <option value="10">Class 10</option>
+                                <option value="ssc">SSC</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="previous-school">Previous School (if applicable)</label>
+                        <input type="text" id="previous-school" name="previous_school">
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h4>Parent/Guardian Information</h4>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="parent-name">Full Name *</label>
+                            <input type="text" id="parent-name" name="parent_name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="relationship">Relationship to Student *</label>
+                            <select id="relationship" name="relationship" required>
+                                <option value="">Select Relationship</option>
+                                <option value="father">Father</option>
+                                <option value="mother">Mother</option>
+                                <option value="guardian">Guardian</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="parent-phone">Phone Number *</label>
+                            <input type="tel" id="parent-phone" name="parent_phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="parent-email">Email Address *</label>
+                            <input type="email" id="parent-email" name="parent_email" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h4>Contact Information</h4>
+                    <div class="form-group">
+                        <label for="address">Home Address *</label>
+                        <textarea id="address" name="address" rows="3" required></textarea>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="emergency-contact">Emergency Contact Name *</label>
+                            <input type="text" id="emergency-contact" name="emergency_contact" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="emergency-phone">Emergency Contact Phone *</label>
+                            <input type="tel" id="emergency-phone" name="emergency_phone" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the <a href="#" target="_blank">Terms and Conditions</a> and <a href="#" target="_blank">Privacy Policy</a> *</label>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">I would like to receive updates and newsletters from Muel & Nuel Schools</label>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="cta-btn">Submit Application</button>
+                    <p class="form-note">* Required fields</p>
+                </div>
+            </form>
+        </section>
+
+        <section class="testimonials">
+            <h2 class="section-title">Admission Process</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h4>1. Application Review</h4>
+                    <p>Our admissions team reviews your application within 3-5 business days.</p>
+                </div>
+
+                <div class="info-card">
+                    <h4>2. Assessment</h4>
+                    <p>Students may be required to complete a simple assessment to determine grade placement.</p>
+                </div>
+
+                <div class="info-card">
+                    <h4>3. Interview</h4>
+                    <p>A brief interview with parents and student to understand learning needs and goals.</p>
+                </div>
+
+                <div class="info-card">
+                    <h4>4. Admission Decision</h4>
+                    <p>You will receive notification of admission decision via email and phone.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h3>Need Help with Your Application?</h3>
+            <p>Our admissions team is here to assist you. Contact us if you have any questions about the registration process.</p>
+
+            <div class="contact-buttons">
+                <a href="tel:+2347062662726" class="contact-btn primary">Call Us</a>
+                <a href="mailto:info@ajewolehelenola@gmail.com" class="contact-btn secondary">Email Us</a>
+            </div>
+        </section>
     </div>
 
     <footer>
@@ -41,33 +199,33 @@
                 <div class="footer-section">
                     <h4>Muel and Nuel Schools</h4>
                     <p>MNS Avenue, KM 1 Oye Road, Opposite Club 009 Estate, Oye, Nigeria, 370111</p>
-                    <p>📞 +234(0)7062662726</p>
+                    <p>📞 +234(0)7062662726 <br>📞 +234(0)8067108806</p>
                     <p>✉️ info@ajewolehelenola@gmail.com</p>
                     <div class="social-links">
-                        <a href="#">f</a>
-                        <a href="#">in</a>
-                        <a href="#">📧</a>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+                        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="mailto:info@ajewolehelenola@gmail.com">Email</a>
                     </div>
                 </div>
-                
+
                 <div class="footer-section">
                     <h4>Quick links</h4>
-                    <a href="#">Home</a>
+                    <a href="home.html">Home</a>
                     <a href="about.html">About</a>
                     <a href="admission.html">Admissions</a>
                     <a href="contact.html">Contact</a>
                 </div>
-                
+
                 <div class="footer-section">
                     <h4>Connect with us</h4>
-                    <a href="#">Facebook</a>
-                    <a href="#">LinkedIn</a>
-                    <a href="#">Twitter</a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="https://wa.me/2347062662726" target="_blank" rel="noopener noreferrer">Whatsapp</a>
+                    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
-                <p>© 2025 Muel & Nuel Schoolsvx. All rights reserved.</p>
+                <p>© 2025 Muel & Nuel Schools. All rights reserved.</p>
             </div>
         </div>
     </footer>

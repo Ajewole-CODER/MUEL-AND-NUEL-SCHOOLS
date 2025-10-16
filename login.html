@@ -7,6 +7,7 @@
     <meta name="keywords" content="school, education, Muel Nuel, login, portal">
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Login - Muel & Nuel Schools</title>
 </head>
 <body>
@@ -32,7 +33,100 @@
     </header>
 
     <div class="container">
-        <!-- Login content goes here -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Student Portal Login</h1>
+                    <p class="hero-subtitle">Access Your Account</p>
+                    <p>Welcome back! Log in to access your student portal, view grades, assignments, and school resources.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Student studying">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="login-container">
+                <h3>Sign In to Your Account</h3>
+                <p>Enter your credentials to access the student portal.</p>
+
+                <form action="#" method="post" class="login-form">
+                    <div class="form-group">
+                        <label for="role">Select Your Role *</label>
+                        <select id="role" name="role" required>
+                            <option value="">Choose your role</option>
+                            <option value="parent">Parent</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="admin">Administrator</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="username">Username or Email *</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password *</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <div class="form-options">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="remember" name="remember">
+                            <label for="remember">Remember me</label>
+                        </div>
+                        <a href="#" class="forgot-password">Forgot Password?</a>
+                    </div>
+
+                    <button type="submit" class="cta-btn login-btn">Sign In</button>
+
+                    <div class="login-footer">
+                        <p>Don't have an account? <a href="register.html">Register here</a></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2 class="section-title">Portal Features</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>Academic Records</h3>
+                    <p>View your grades, attendance records, and academic progress reports.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Assignments & Resources</h3>
+                    <p>Access homework assignments, study materials, and educational resources.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>School Announcements</h3>
+                    <p>Stay updated with important school news, events, and announcements.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Communication</h3>
+                    <p>Connect with teachers, view messages, and participate in school discussions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h3>Need Help?</h3>
+            <p>If you're having trouble logging in or need assistance with your account, contact our support team.</p>
+
+            <div class="contact-buttons">
+                <a href="contact.html" class="contact-btn primary">Contact Support</a>
+                <a href="mailto:support@muelnuelschools.edu.ng" class="contact-btn secondary">Email Support</a>
+            </div>
+
+            <div class="support-info">
+                <h4>Technical Support</h4>
+                <p>📞 +234(0)7062662726</p>
+                <p>✉️ support@muelnuelschools.edu.ng</p>
+                <p>🕒 Monday - Friday: 8:00 AM - 4:00 PM</p>
+            </div>
+        </section>
     </div>
 
     <footer>
@@ -67,7 +161,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>© 2025 Muel & Nuel Schoolsvx. All rights reserved.</p>
+                <p>© 2025 Muel & Nuel Schools. All rights reserved.</p>
             </div>
         </div>
     </footer>

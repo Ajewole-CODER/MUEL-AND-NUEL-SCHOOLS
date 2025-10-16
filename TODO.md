@@ -1,5 +1,7 @@
-- [x] Update about.html: Add proper head section with meta tags, title "About - Muel & Nuel Schools", correct CSS link to "css/styles.css", add header, footer, and scripts.
-- [x] Update admission.html: Add proper head section with meta tags, title "Admissions - Muel & Nuel Schools", correct CSS link to "css/styles.css", add header, footer, and scripts.
-- [x] Update admin.html: Add proper head section with meta tags, title "Admin - Muel & Nuel Schools", correct CSS link to "css/styles.css", add header, footer, and scripts.
-- [x] Update register.html: Add proper head section with meta tags, title "Register - Muel & Nuel Schools", correct CSS link to "css/styles.css", add header, footer, and scripts.
-- [x] Update login.html: Add proper head section with meta tags, title "Login - Muel & Nuel Schools", add CSS link "css/styles.css", add header, footer, and scripts.
+# Task: Upgrade and Style Google Maps Embed on Home Page
+
+## Steps to Complete:
+
+- [x] Step 1: Edit home.html to remove the <h3> wrapper around the iframe in the .direction div.
+- [x] Step 2: Add CSS styles for .direction and .direction iframe in css/styles.css for responsive design, centering, padding, border-radius, and box-shadow.
+- [x] Step 3: Verify the changes and complete the task.
